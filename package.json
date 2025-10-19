@@ -1,0 +1,30 @@
+{
+  "name": "harsh-chimnani-portfolio",
+  "version": "1.0.0",
+  "description": "Creative space-themed portfolio website for Harsh Chimnani",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'Deploy to your preferred platform'"
+  },
+  "keywords": [
+    "portfolio",
+    "space",
+    "developer",
+    "creative",
+    "website"
+  ],
+  "author": "Harsh Chimnani",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/harshchimnani/portfolio.git"
+  },
+  "homepage": "https://harshchimnani.dev"
+}

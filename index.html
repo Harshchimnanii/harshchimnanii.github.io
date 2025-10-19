@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Chimnani - Freelance Developer & Digital Creator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <div class="clouds"></div>
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">HARSH CHIMNANI</span>
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Available for Work</span>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-rocket"></i>
+                    <span>Freelance Developer</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">CREATIVE</span>
+                    <span class="title-line">DEVELOPER</span>
+                    <span class="title-line">& DESIGNER</span>
+                </h1>
+                <p class="hero-subtitle">Web developer focused on clean UI, responsive design, and performance with modern HTML, CSS, JavaScript, and React.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2027</span>
+                        <span class="stat-label">Graduation Year</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">Agra</span>
+                        <span class="stat-label">Location</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn-primary">
+                        <i class="fas fa-briefcase"></i>
+                        Hire Me
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-eye"></i>
+                        View Work
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <!-- hide the upload UI -->
+                <div class="photo-upload-area" id="photoUpload" style="display:none;"></div>
+              
+                <!-- show the preview by default and point to your image -->
+                <div class="photo-preview" id="photoPreview" style="display:block;">
+                  <img id="previewImage" src="profile.jpg" alt="Harsh Chimnani">
+                  <button class="change-photo-btn" style="display:none;">Change Photo</button>
+                </div>
+              </div>
+              
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Computer Science undergraduate and front‑end focused web developer from GLA University, building responsive, accessible interfaces with HTML, CSS, JavaScript, and React, with basic backend using Java and MySQL.</p>
+                    <div class="passion-indicators">
+                        <div class="passion-item">
+                            <i class="fas fa-code"></i>
+                            <span>Consistent daily practice</span>
+                        </div>
+                        <div class="passion-item">
+                            <i class="fas fa-coffee"></i>
+                            <span>Fueled by passion</span>
+                        </div>
+                        <div class="passion-item">
+                            <i class="fas fa-rocket"></i>
+                            <span>Always learning</span>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML & CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Front‑End Development</h3>
+                    <p>Responsive, accessible web UIs with modern HTML, CSS, JavaScript, and React</p>
+                    <ul class="service-features">
+                        <li>Responsive UI</li>
+                        <li>Fast Performance</li>
+                        <li>SEO Basics</li>
+                    </ul>
+                    <div class="service-price">On request</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Portfolio & Landing Pages</h3>
+                    <p>Clean, minimal pages focused on clarity, speed, and conversions</p>
+                    <ul class="service-features">
+                        <li>Clean Design</li>
+                        <li>Optimized Assets</li>
+                        <li>CTA‑Focused</li>
+                    </ul>
+                    <div class="service-price">On request</div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Backend (Basics)</h3>
+                    <p>Simple APIs and data integration using Java and MySQL</p>
+                    <ul class="service-features">
+                        <li>REST APIs</li>
+                        <li>Auth Basics</li>
+                        <li>CRUD Operations</li>
+                    </ul>
+                    <div class="service-price">On request</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">🍽️</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Personal</div>
+                        <h3>Restaurant Landing Page</h3>
+                        <p>Responsive restaurant website with interactive navigation and clean layout</p>
+                        <div class="project-tech">HTML • CSS • JavaScript</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> 1 week</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">🛍️</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Personal</div>
+                        <h3>E‑Commerce Landing Page</h3>
+                        <p>Product‑focused layout with pricing sections and clear CTAs</p>
+                        <div class="project-tech">HTML • CSS • JavaScript</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> 1 week</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">💻</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Personal</div>
+                        <h3>Product Showcase Page</h3>
+                        <p>GitHub‑style laptop showcase highlighting HP and ASUS models</p>
+                        <div class="project-tech">HTML • CSS</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> 3 days</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">👤</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Personal</div>
+                        <h3>Personal Portfolio</h3>
+                        <p>Responsive portfolio with clean UI and smooth navigation</p>
+                        <div class="project-tech">HTML • CSS • JavaScript</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> 1 week</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">🧩</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Practice</div>
+                        <h3>UI Components</h3>
+                        <p>Reusable cards, navbars, and forms built with semantic HTML and CSS</p>
+                        <div class="project-tech">HTML • CSS • JavaScript</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> Ongoing</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="https://github.com/Harshchimnanii" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-placeholder">📚</div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Learning</div>
+                        <h3>DevOps & Cloud Basics</h3>
+                        <p>Hands‑on practice with Git, CI/CD concepts, and Linux fundamentals</p>
+                        <div class="project-tech">Git • GitHub • Linux</div>
+                        <div class="project-stats">
+                            <span><i class="fas fa-clock"></i> Ongoing</span>
+                            <span><i class="fas fa-dollar-sign"></i> —</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Ready to Start Your Project?</h3>
+                        <p>I'm available for new freelance opportunities and would love to discuss your project requirements.</p>
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">chimnaniharsh4@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <span class="contact-label">Phone</span>
+                                    <span class="contact-value">+91 8791996677</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="contact-label">Location</span>
+                                    <span class="contact-value">Agra, India</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <span class="contact-label">Response Time</span>
+                                    <span class="contact-value">Within 24 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Harshchimnanii" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/harshchimnanii/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://leetcode.com/u/crazysnippet/" class="social-link"><i class="fa-solid fa-code"></i>                            </a>
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Project Type</option>
+                                <option value="web">Web Development</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="ai">AI/ML Solution</option>
+                                <option value="consulting">Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Budget Range</option>
+                                <option value="500-1000">$500 - $1,000</option>
+                                <option value="1000-5000">$1,000 - $5,000</option>
+                                <option value="5000-10000">$5,000 - $10,000</option>
+                                <option value="10000+">$10,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Harsh Chimnani. All rights reserved. | Exploring the digital universe</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
